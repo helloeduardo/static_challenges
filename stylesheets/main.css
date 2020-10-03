@@ -1,0 +1,59 @@
+header, article, footer {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+header a {
+  background-color: rgb(88, 139, 9);
+  padding: 1.5em;
+}
+
+nav {
+  background-color: rgb(5, 46, 99);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.main-photo h2{
+  position: absolute;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.main-photo img{
+  width: 100%
+}
+
+.main-text, footer {
+  padding: 1em;
+}
+
+section {
+  background-color: rgb(218, 226, 237);
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  margin: 25px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.photo img {
+  width: 100%;
+}
